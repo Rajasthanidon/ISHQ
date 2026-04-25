@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "task": [
+    {
+      "label": "Auto Push to GitHub",
+      "type": "shell",
+      "command": "git add . && git commit -m \"auto update\" && git push",
+      "problemMatcher": []
+    }
+  ]
+}
