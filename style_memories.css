@@ -1,0 +1,8 @@
+body{
+    background-image: url("cute_rabbit.jpg");
+    background-size:cover;
+    height:100vh;
+    background-position: center;
+    display:flex;
+    background-attachment: scroll;
+}
