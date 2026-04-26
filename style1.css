@@ -1,3 +1,8 @@
 body{
      background-image:url(cute_coffe_mug.jpg);
+     background-size: cover;
+     margin:0;
+     padding:0;
+     background-position:center;
+     background-repeat: no-repeat;
 }
