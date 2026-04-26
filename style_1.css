@@ -1,8 +1,10 @@
 body{
      background-image:url(new.jpg);
-     background-size:cover;
-     margin:0;
+     background-size: 67%;
+     margin:auto;
      padding:0;
      background-position:center;
      background-repeat:no-repeat;
+     background-attachment: scroll;
+     background-position-y: 0%;
 }
