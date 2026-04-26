@@ -2,7 +2,9 @@ body{
     background-image: url("cute_rabbit.jpg");
     background-size:cover;
     height:100vh;
+    max-width: 1920px;
     background-position: center;
     display:flex;
     background-attachment: scroll;
+    background-repeat: no-repeat;
 }
