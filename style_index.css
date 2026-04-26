@@ -2,6 +2,7 @@ body{
      background-image:url(new.jpg);
      background-size: cover;
      height:100vh;
+     width:100vw;
      display:flex;
      background-position:center;
      background-repeat:no-repeat;
