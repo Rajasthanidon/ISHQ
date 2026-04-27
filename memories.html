@@ -4,12 +4,46 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="cute_ghost.png">
         <link rel="stylesheet" href="style_memories.css">
-        <script src="script_memories.js"></script>
         <title>
             ISHQ
         </title>
     </head>
     <body>
+       <div >
+           <p id="para">
+                Me Kesa Lagta Hu
+            </p>
+        </div> 
+            <div class="button" >
+                <button id="ha">
+                    Bahut Ache
+                </button>
+                <button  id="nahi">
+                    Nahi Bataungi
+                </button>
+            </div>
+            <div class="emoji">
+                <img src="smiley.png" id="smiley" />
+            </div>
+            <script>
+const haa = document.getElementById("ha");
+const emoj = document.getElementById("smiley");
 
+haa.addEventListener("mouseover",function (){
+    emoj.src="smiley.png";
+    emoj.style.display="block";
+});
+haa.addEventListener("mouseout",function (){
+    emoj.style.display="none";
+});
+const nahii = document.getElementById("nahi");
+nahii.addEventListener("mouseover",function (){
+    emoj.src="upset.png";
+    emoj.style.display="block";
+});
+nahii.addEventListener("mouseout",function (){
+    emoj.style.display="none";
+});
+</script>
     </body>
 </html>
