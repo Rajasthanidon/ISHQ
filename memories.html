@@ -31,18 +31,24 @@ const emoj = document.getElementById("smiley");
 
 haa.addEventListener("mouseover",function (){
     emoj.src="smiley.png";
-    emoj.style.display="block";
+    emoj.style.visibility="visible";
 });
 haa.addEventListener("mouseout",function (){
-    emoj.style.display="none";
+    emoj.style.visibility="hidden";
 });
 const nahii = document.getElementById("nahi");
 nahii.addEventListener("mouseover",function (){
     emoj.src="upset.png";
-    emoj.style.display="block";
+    emoj.style.visibility="visible";
 });
 nahii.addEventListener("mouseout",function (){
-    emoj.style.display="none";
+    emoj.style.visibility="hidden";
+});
+var x = Math.floor(Math.random()*100);
+var y = Math.floor(Math.random()*100);
+const pos = document.getElementById("nahi");
+pos.addEventListener("click",function (){
+    pos.style.transform = "translate(x,y)";
 });
 </script>
     </body>

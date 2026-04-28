@@ -10,7 +10,7 @@ function font_size(){
     document.getElementById("nahi").style.fontSize = size1 + "px";
     }
     else{
-        document.getElementById("nahi").disabled = true;
+        document.getElementById("nahi").style.visibility ="hidden";
     }
 
 }

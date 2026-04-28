@@ -48,3 +48,6 @@ body{
      background-color: transparent;
      text-decoration: none;
  }
+ div.button #nahi{
+    cursor:pointer;
+ }
