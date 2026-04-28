@@ -2,14 +2,25 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <img rel="icon" type="image/x-icon" href="">
+        <link rel="icon" type="image/x-icon" href="cute_ghost.png">
+        <link rel="stylesheet" href="style_login.css">
         <title>
             ISHQ
         </title>
     </head>
     <body>
-        <form>
-          Username:  <input placeholder="username">
-        </form>
+        <div class="form_div">
+            <form class="form" id="form">
+                <div class="input">
+                    <div class="u_input">
+                        Username:  <input placeholder="Username" id="u_name">
+                    </div>
+                    <div class="pass">
+                        Password:  <input placeholder="Password" id="pass">
+                    </div>
+                    <input type="submit" id="submit">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
