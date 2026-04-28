@@ -7,18 +7,27 @@ body{
     background-repeat: no-repeat;
     
 }
+div.cont{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink:1;
+}
 
 #para{
     font-size:55px;
-    margin-left: 35vw;
     margin-bottom: 5vh;
     margin-top:2vh;
+}
+div.button{
+    display:flex;
+    justify-content: center;
 }
 div.button button{
     font-size: 16px;
 }
 div.button #ha{
-    margin-left: 41vw;
+    /* margin-left: 41vw; */
     margin-right: 0.5vw;
 }
 div.button #ha:hover{
