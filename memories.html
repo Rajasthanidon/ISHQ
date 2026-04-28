@@ -44,11 +44,11 @@ nahii.addEventListener("mouseover",function (){
 nahii.addEventListener("mouseout",function (){
     emoj.style.visibility="hidden";
 });
-var x = Math.floor(Math.random()*100);
-var y = Math.floor(Math.random()*100);
 const pos = document.getElementById("nahi");
 pos.addEventListener("click",function (){
-    pos.style.transform = "translate(x,y)";
+    const x = Math.floor(Math.random()*1000);
+    const y = Math.floor(Math.random()*1000);
+    pos.style.transform = `translate(${x}px, ${y}px)`;
 });
 </script>
     </body>
