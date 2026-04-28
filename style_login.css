@@ -11,11 +11,8 @@ background-position: center;
 backdrop-filter:blur(1.5px);
 }
 
-div.form #form{
-    display:flex;
-    justify-content: center;
-}
 div.form_div{
+    display:block;
     width:30vw;
     height:80vh;
     box-shadow: 0 0 8px rgba(255, 255, 255);
@@ -25,10 +22,18 @@ div.form_div{
     background-size: cover;
     background-position: center;
 }
+div.form #form{
+    display:flex;
+    justify-content: center;
+}
+div.input{
+    color:rgb(8, 194, 104);
+}
 div.u_input {
     display: block;
     font-size: 30px;
     margin-bottom: 40px;
+    flex-shrink: 1;
     
 }
 div.u_input #u_name{
