@@ -1,5 +1,5 @@
 body{
-background-image: url(login_bg.jpg);
+background-image: url(../Content/login_bg.jpg);
 background-size: cover;
 height: 100vh;
 display:flex;
@@ -18,8 +18,8 @@ div.form_div{
     height:80%;
     box-shadow: 0 0 8px rgba(255, 255, 255);
     justify-items: center;
-    align-content: top;
-    background-image: url(homi_1.jpg);
+    align-content: center;
+    background-image: url(../Content/login_bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -58,5 +58,6 @@ div.pass #pass{
 div.input #submit{
     max-width: 7vw;
     justify-self: center;
+    cursor: pointer;
 }
 
