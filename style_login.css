@@ -33,7 +33,7 @@ div.input{
     flex-direction: column;
 }
 div.u_input {
-    display:block;
+    display:flex;
     font-size: 30px;
     margin-bottom: 40px;
     flex-shrink: 1;
