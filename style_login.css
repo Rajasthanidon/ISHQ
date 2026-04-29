@@ -33,11 +33,10 @@ div.input{
     flex-direction: column;
     align-items: center;
     flex-wrap:nowrap;
-    flex-shrink: 0;
 }
 div.u_input {
-    display:flex;
-    font-size: 2vw;
+    display:block;
+    /* font-size: 2vw; */
     margin-bottom: 40px;
     
 }
@@ -46,17 +45,16 @@ div.u_input #u_name{
     width:10vw;
 }
 div.pass {
-    display: flex;;
-    font-size: 2vw;
+    display: block;
+    /* font-size: 2vw; */
     margin-bottom: 40px;
 }
 div.pass #pass{
     display: inline;
     width:10vw;
-    flex-shrink: 0;
 }
 div.input #submit{
-    max-width: 20%;
+    max-width: 7vw;
     justify-self: center;
 }
 
