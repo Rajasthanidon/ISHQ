@@ -29,9 +29,11 @@ div.form_div{
 }
 div.input{
     color:rgb(8, 194, 104);
+    display:flex;
+    flex-direction: column;
 }
 div.u_input {
-    display: block;
+    display:block;
     font-size: 30px;
     margin-bottom: 40px;
     flex-shrink: 1;
