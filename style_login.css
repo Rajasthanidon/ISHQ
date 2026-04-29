@@ -31,13 +31,13 @@ div.input{
     color:rgb(8, 194, 104);
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 div.u_input {
     display:flex;
     font-size: 30px;
     margin-bottom: 40px;
-    flex-shrink: 1;
-    min-width:15vw;
+    min-width:12vw;
     
 }
 div.u_input #u_name{
@@ -45,15 +45,16 @@ div.u_input #u_name{
     width:50%
 }
 div.pass {
-    display: block;
+    display: flex;;
     font-size: 30px;
     margin-bottom: 40px;
+    min-width:12vw;
 }
 div.pass #pass{
     display: inline;
     width:50%
 }
 div.input #submit{
-    display:block;
+    max-width: 20%;
     justify-self: center;
 }
