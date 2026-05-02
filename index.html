@@ -4,11 +4,12 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="cute_ghost.png">
         <link rel="stylesheet" href="style_index.css">
+        <script src="script_index.js"></script>
         <title>
             ISHQ
         </title>
     </head>
-    <body>
+    <body id="body">
         <div class="form_div">
             <form class="form" id="form" method="get" action="home.html">
                 <div class="input">
@@ -22,5 +23,21 @@
                 </div>
             </form>
         </div>
+        <script>
+            const ent = document.getElementsByTagName("input");
+            for(let inp of ent){
+                inp.addEventListener("keydown",function (event){
+                    if(event.key==="Enter"){
+                        event.preventDefault();
+                    }
+                })
+            }
+            addEventListener("keydown",function (event){
+                document.getElementById("form").style.visibility = "hidden";
+                const text = document.getElementById("body");
+                text.innerHTML = "RUK JA BHAI ENTER MT DBA";
+                text.style.color ="rgb(11, 238, 226)"
+            })
+        </script>
     </body>
 </html>
