@@ -59,6 +59,6 @@ div.input #submit{
     max-width: 7vw;
     justify-self: center;
     cursor: pointer;
-    visibility: hidden;
+    visibility: visible;
 }
 
